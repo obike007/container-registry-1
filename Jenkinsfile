@@ -6,6 +6,7 @@ pipeline {
     ORGANIZATION_NAME  = "frankisinfotech"
     DOCKERHUB_USERNAME = "frankisinfotech"
     REGISTRY_TAG       = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
+  }
   
   stages {
 
