@@ -19,8 +19,8 @@ pipeline {
     stage ('Build Image') {
       steps {
         withDockerRegistry([credentialsId: 'docker-hub', url: ""]) {
-          sh 'docker build -t tagNam .'
-          sh 'docker push TagName'
+          sh 'docker build -t ${REGISTRY_TAG} .'
+          sh 'docker push ${REGISTRY_TAG}'
         }
       }
     }
