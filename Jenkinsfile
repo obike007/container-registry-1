@@ -9,7 +9,7 @@ pipeline {
     REPO_TAG           = "public.ecr.aws/g0b5g9q2"
     PRIVATE_REPO_TAG   = "765176032689.dkr.ecr.eu-west-1.amazonaws.com"
     APP_NAME           = "ch2images"
-    PRIVATE_APP_NAME   = "cohortimages
+    PRIVATE_APP_NAME   = "cohortimages"
     VERSION            = "${BUILD_ID}"
   }
 
