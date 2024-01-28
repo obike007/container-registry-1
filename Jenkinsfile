@@ -7,9 +7,9 @@ pipeline {
     DOCKERHUB_USERNAME = "obike007"
     REGISTRY_TAG       = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
     REPO_TAG           = "public.ecr.aws/y9h6i0p3"
-    PRIVATE_REPO_TAG   = "765176032689.dkr.ecr.eu-west-1.amazonaws.com"
+    PRIVATE_REPO_TAG   = "777509916248.dkr.ecr.eu-west-1.amazonaws.com"
     APP_NAME           = "cohort5"
-    PRIVATE_APP_NAME   = "cohortimages"
+    PRIVATE_APP_NAME   = "cohort6"
     VERSION            = "${BUILD_ID}"
   }
 
