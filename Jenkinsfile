@@ -3,12 +3,12 @@ pipeline {
 
   environment {
     SERVICE_NAME       = "container-registry"
-    ORGANIZATION_NAME  = "frankisinfotech"
-    DOCKERHUB_USERNAME = "frankisinfotech"
+    ORGANIZATION_NAME  = "obike007"
+    DOCKERHUB_USERNAME = "obike007"
     REGISTRY_TAG       = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
-    REPO_TAG           = "public.ecr.aws/g0b5g9q2"
+    REPO_TAG           = "public.ecr.aws/y9h6i0p3"
     PRIVATE_REPO_TAG   = "765176032689.dkr.ecr.eu-west-1.amazonaws.com"
-    APP_NAME           = "ch2images"
+    APP_NAME           = "cohort5"
     PRIVATE_APP_NAME   = "cohortimages"
     VERSION            = "${BUILD_ID}"
   }
